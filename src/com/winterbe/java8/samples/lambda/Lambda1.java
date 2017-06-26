@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.lambda;
+//package com.winterbe.java8.samples.lambda;
 
 import java.util.Arrays;
 import java.util.Collections;
