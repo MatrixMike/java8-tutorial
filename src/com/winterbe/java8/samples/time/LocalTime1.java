@@ -49,11 +49,11 @@ public class LocalTime1 {
 
         // create time
 
-        LocalTime now = LocalTime.now();
-        System.out.println(now);
+        LocalTime now3 = LocalTime.now();
+        System.out.println(now3);
 
-        LocalTime late = LocalTime.of(23, 59, 59);
-        System.out.println(late);
+        LocalTime late2 = LocalTime.of(23, 59, 59);
+        System.out.println(late2);
 
         DateTimeFormatter germanFormatter =
                 DateTimeFormatter

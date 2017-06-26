@@ -35,13 +35,20 @@ public class LocalDateTime1 {
         System.out.println(legacyDate);     // Wed Dec 31 23:59:59 CET 2014
 
 
-        DateTimeFormatter formatter =
+        DateTimeFormatter formatter1 =
                 DateTimeFormatter
                         .ofPattern("MMM dd, yyyy - HH:mm");
-
-        LocalDateTime parsed = LocalDateTime.parse("Nov 03, 2014 - 07:13", formatter);
-        String string = parsed.format(formatter);
-        System.out.println(string);     // Nov 03, 2014 - 07:13
-    }
+        DateTimeFormatter formatter2 =
+                DateTimeFormatter
+                        .ofPattern("MMM dd, yyyy - HH:mm");
+                        
+        LocalDateTime parsed1 = LocalDateTime.parse("Nov 03, 2014 - 07:13", formatter1);
+        String string1 = parsed1.format(formatter1);
+        System.out.println(string1);     // Nov 03, 2014 - 07:13
+        
+ /*       LocalDateTime parsed2 = LocalDateTime.parse("03 Nov , 2014 - 07:13", formatter2);
+        String string2 = parsed2.format(formatter2);
+        System.out.println(string2);     // Nov 03, 2014 - 07:13
+   */ }
 
 }
