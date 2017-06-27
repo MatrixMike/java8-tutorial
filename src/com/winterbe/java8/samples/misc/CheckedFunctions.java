@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.misc;
+//package com.winterbe.java8.samples.misc;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
